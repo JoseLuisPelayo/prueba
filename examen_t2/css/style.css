@@ -1,0 +1,109 @@
+@font-face {
+    font-family: street;
+    src: url(../assets/font/street.otf);
+}
+
+:root {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url(../assets/img/fondo2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.title {
+    color: crimson;
+    font-size: 46px;
+    text-align: center;
+    font-family: street;
+}
+
+#pj-table {
+    width: 600px;
+    height: 800px;
+    border: 10px outset rgb(237, 175, 5);
+    border-radius: 10px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+td {
+    width: 40px;
+    height: 45px;
+    font-family: street;
+    border: 2px solid grey;
+    font-size: 18px;
+    font-weight: bold;
+    color: darkorange;
+    text-align: center;
+}
+
+.header {
+    background-image: url(../assets/img/fondocabecera.jpg);
+    background-size: 100% 100%;
+    font-size: 40px;
+    color: whitesmoke;
+    opacity: .5;
+    font-family: street;
+    text-align: center;
+}
+
+.title2 {
+    font-family: 28px;
+}
+
+#street-form {
+    width: 600px;
+    height: 1100px;
+    border: 10px outset rgb(237, 175, 5);
+    color: white;
+    background-color: black;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#street-form legend {
+    font-size: 14px;
+    font-family: street;
+    color: rgb(237, 175, 5);
+}
+
+#street-form textarea {
+    width: 560px;
+    height: 200px;
+}
+
+#street-form .btns {
+    border: 1px solid crimson;
+    background-color: crimson;
+    font-family: street;
+    color: white;
+    font-size: 18px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 65px;
+}
+
+fieldset {
+    margin-bottom: 1rem;
+}
+
+#personal-data label {
+    display: block;
+    margin: .8rem 0;
+}
+
+#gender label {
+    display: block;
+}
+
+
+

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreetFighter-UNIR</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="assets/img/arcade.png" type="image/x-icon">
+</head>
+
+<body>
+    <h1 class="title">To live is to
+        fight, to fight is to live!</h1>
+
+    <table id="pj-table">
+        <tr>
+            <td class="header" colspan="4"><span>STREET FIGHTER</span></td>
+        </tr>
+        <tr>
+            <td>
+                <p>Ken</p>
+                <img src="./assets/img/ken.png" alt="ken">
+            </td>
+            <td>
+                <p>Chun Li</p>
+                <img src="./assets/img/ChunLi.png" alt="chun li">
+            </td>
+            <td>
+                <p>Zangief</p>
+                <img src="./assets/img/Zangief.png" alt="zangief">
+            </td>
+            <td>
+                <p>Dhalsim</p>
+                <img src="./assets/img/Dhalsim.png" alt="Dhalsim">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Ryu</p>
+                <img src="./assets/img/Ryu.png" alt="ryu">
+            </td>
+            <td>
+                <p>E Honda</p>
+                <img src="./assets/img/EHonda.png" alt="E Honda">
+            </td>
+            <td>
+                <p>Blanka</p>
+                <img src="./assets/img/Blanka.png" alt="Blanka">
+            </td>
+            <td>
+                <p>Guille</p>
+                <img src="./assets/img/Guille.png" alt="Guille">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>T Hawk</p>
+                <img src="./assets/img/THawk.png" alt="T Hawk">
+            </td>
+            <td>
+                <p>Feilong</p>
+                <img src="./assets/img/Feilong.png" alt="Feilong">
+            </td>
+            <td>
+                <p>Dee Jay</p>
+                <img src="./assets/img/DeeJay.png" alt="Dee Jay">
+            </td>
+            <td>
+                <p>Cammy</p>
+                <img src="./assets/img/Cammy.png" alt="">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>Balrog</p>
+                <img src="./assets/img/Balrog.png" alt="Balrog">
+            </td>
+            <td>
+                <p>Vega</p>
+                <img src="./assets/img/Vega.png" alt="Vega">
+            </td>
+            <td>
+                <p>Sagat</p>
+                <img src="./assets/img/Sagat.png" alt="Sagat">
+            </td>
+            <td>
+                <p>M Bison</p>
+                <img src="./assets/img/MBison.png" alt="M Bison">
+            </td>
+        </tr>
+    </table>
+
+    <h2 class="title title2">Formulario de Inscripción para jugar a Street Figther</h2>
+
+    <form action="#" id="street-form">
+        <fieldset id="personal-data">
+            <legend>Datos Personales</legend>
+            <label for="name">Nombre: </label>
+            <input type="text" id="name" name="name">
+            <label for="l-name">Apellidos: </label>
+            <input type="text" id="l-name" name="l-name">
+            <label for="address">Dirección Postal: </label>
+            <input type="text" id="address" name="street" placeholder="Calle">
+            <input type="text" id="address" name="number" placeholder="Nº">
+            <input type="text" id="address" name="floor" placeholder="Piso">
+            <input type="text" id="address" name="zip" placeholder="Cód Postal">
+            <input type="text" id="address" name="city" placeholder="Ciudad">
+            <label for="nick-name">Nick: </label>
+            <input type="text" id="nick-name" name="nick-name">
+            <label for="email">Correo Electrónico: </label>
+            <input type="email" id="email" name="email">
+        </fieldset>
+        <fieldset id="gender">
+            <legend>Sexo usuario</legend>
+            <label for="man">
+                <input type="radio" name="gender" id="man">Hombre
+            </label>
+            <label for="women">
+                <input type="radio" name="gender" id="women">Mujer
+            </label>
+            <label for="na">
+                <input type="radio" name="gender" id="na">Prefiero No Decir
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend> </legend>
+            <label for="birthdate">Fecha nacimiento</label>
+            <input type="date" id="birthdate" name="birthdate">
+        </fieldset>
+        <fieldset>
+            <legend>Personajes</legend>
+            <label for="pj">Selecciona el personaje:</label>
+            <input type="text" id="pj" name="pj">
+        </fieldset>
+        <fieldset>
+            <legend>Comentarios</legend>
+            <textarea name="coments" id="coments"></textarea>
+        </fieldset>
+
+        <input type="submit" value="Enviar" class="btns">
+        <input type="reset" value="Borrar" class="btns">
+
+
+    </form>
+
+</body>
+
+</html>
